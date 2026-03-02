@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bilder</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        padding: 1rem;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      .gallery img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="gallery">
+      <a
+        href="https://picsum.photos/1200/900?random=1"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Bild 1 in voller Grösse"
+      >
+        <img
+          src="https://picsum.photos/300/200?random=1"
+          alt="Vorschaubild 1"
+        />
+      </a>
+      <a
+        href="https://picsum.photos/1200/900?random=2"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Bild 2 in voller Grösse"
+      >
+        <img
+          src="https://picsum.photos/300/200?random=2"
+          alt="Vorschaubild 2"
+        />
+      </a>
+      <a
+        href="https://picsum.photos/1200/900?random=3"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Bild 3 in voller Grösse"
+      >
+        <img
+          src="https://picsum.photos/300/200?random=3"
+          alt="Vorschaubild 3"
+        />
+      </a>
+    </section>
+  </body>
+</html>
