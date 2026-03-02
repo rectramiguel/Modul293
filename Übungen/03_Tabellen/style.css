@@ -4,8 +4,11 @@ table{
     border: 2px solid black;
 }
 table th,
-
 table td {
     border: 2px solid #000;
     padding: 8px;
+}
+
+table tr{
+    margin: 10px 10px 10px 10px;
 }
